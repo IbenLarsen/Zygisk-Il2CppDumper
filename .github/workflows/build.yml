@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: temurin
-          java-version: 21  # Updated from Java 11 → Java 21 (LTS)
+          java-version: 17  # Updated from Java 11 → Java 17 (LTS)
           cache: gradle
       - run: |
           chmod +x ./gradlew
